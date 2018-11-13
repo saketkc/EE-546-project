@@ -1,2 +1,2 @@
 - [Principal Component Analysis and Matrix Factorizations for Learning](http://ranger.uta.edu/~chqding/PCAtutorial/)
-- 
+- [SIMLR](https://github.com/BatzoglouLabSU/SIMLR)
