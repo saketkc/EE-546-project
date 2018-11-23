@@ -56,6 +56,8 @@ average_eta=quantile(temp(find(temp>0)),0.5);
 else
 average_eta=1;
 end
+disp(average_eta)
+disp(sigmaA)
 %sigmaA=exp([-7:1:3])*maxA;
 %else
 %stepA=(log(maxA)-log(minA))/10;
@@ -75,6 +77,7 @@ allSigmaB(i,:)=sigmaB;
 for j=1:length(sigmaB)
 S1{1}=exp(-A.^2/sigmaA(i)^2).*exp(-B.^2/sigmaB(j)^2);
 S1{1}=S1{1}.*C; 
+disp(S1)
 cd ./spectral' clustering'/
 [label1]=SpectralClustering(S1{1},K,1);
 cd ..
@@ -120,3 +123,4 @@ coarse_label(j,nets{i})=label1(j,i);
 end
 end
 
+disp(average_eta)

@@ -2,7 +2,9 @@ function [ nets1 Dimss]=covering_map(X,neighborhood_size,neighborhood_type);
 [U,S,V]=svd(X,0);
 %X=U(:,1:4)*S(1:4,1:4);
 [N,D]=size(X);
+
 remain_labels=1:N;
+
 switch neighborhood_type
 case 5
 center=X;
