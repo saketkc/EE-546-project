@@ -1,0 +1,61 @@
+---
+title: "biomart Notebook"
+output: html_notebook
+---
+
+```{r}
+library(biomaRt)
+species_tx2gene_map = c("btaurus",
+                           "rnorvegicus",
+                           "pabelii",
+                           "mdomestica",
+                           "mmulatta",
+                           "ptroglodytes",
+                           #"mmusculus",
+                           "hsapiens",
+                           "ggallus",
+                           "oanatinus",
+                           "ggorilla",
+                           "ppaniscus")
+```
+
+```{r}
+species_tx2gene_map
+```
+# Mart
+we use mouse as our basis as it appears allmost everywhere (contrary to human)
+```{r}
+attributes_base <- c("_homolog_ensembl_gene",
+                     "_homolog_associated_gene_name",
+                     "_homolog_ensembl_peptide",
+                     "_homolog_chromosome",
+                     "_homolog_chrom_start",
+                     "_homolog_chrom_end",
+                     "_homolog_canonical_transcript_protein",
+                     "_homolog_subtype",
+                     "_homolog_orthology_type",
+                     "_homolog_perc_id",
+                     "_homolog_perc_id_r1",
+                     "_homolog_goc_score",
+                     "_homolog_wga_coverage",
+                     "_homolog_dn",
+                     "_homolog_ds",
+                     "_homolog_orthology_confidence")
+
+mart <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
+```
+
+```{r}
+species <- species_tx2gene_map[1]
+for (species in species_tx2gene_map) {
+    attributes <- c('ensembl_gene_id', paste0(species, attributes_base))
+    filter <- paste('with', species, 'homolog', sep = '_')
+    orth <- getBM( attributes,filters=filter, values=TRUE, mart = mart, bmHeader=FALSE)
+    df <- as.data.frame(orth)
+    write.table(df, file=file.path('/media/dna/github/EE-546-project/ortholog_tsv', paste0('mmusculus_', species, '.tsv')), row.names=F, col.names=T, quote=F, sep='\t' )
+    
+}
+#attributes = c("ensembl_gene_id","hsapiens_homolog_ensembl_gene","hsapiens_homolog_perc_id_r1")
+#attributes = c(attributes,"hsapiens_homolog_orthology_type", "hsapiens_homolog_subtype", "hsapiens_homolog_perc_id")
+
+```
