@@ -1,0 +1,12 @@
+Cow
+Rat
+Orangutan
+Opossum
+Rhesus
+Chimp
+Mouse
+Human
+Chicken
+Platypus
+Gorilla
+Bonobo
