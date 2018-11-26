@@ -1,3 +1,4 @@
+import numpy as np
 import glob
 import spams
 import pandas as pd
@@ -152,5 +153,5 @@ def ho_SVD(list_of_X):
         U_i = B_i/sigma_i 
         sigmas.append(sigma_i)
         U.append(U_i)
-    return U, sigmas, V
+    return U, sigmas, V, eigen_values
     
