@@ -80,7 +80,7 @@ rule sra_to_fastq:
 rule sra_to_fastq:
     input: sra_to_fastq_input
     benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
-    output: 'sratofastq/{sample}.fastq.gz'
+    output: 'sratofastq/{sample}_1.fastq.gz'
     params:
         prefix_sra='sratofastq/{sample}.sra.fastq',
         prefix='sratofastq/{sample}.fastq',
@@ -93,7 +93,7 @@ rule sra_to_fastq:
 
 rule merge_fastq:
     input:
-        all_fastq = expand('sratofastq/{srr}.fastq.gz', srr=ALL_SRR),
+        all_fastq = expand('sratofastq/{srr}_1.fastq.gz', srr=ALL_SRR),
         dynamic_input = merge_fastq_input
     benchmark: 'benchmarks/merge_fastq/{sample}.txt'
     output: temp('fastq_merged/{sample}.fastq.gz')
