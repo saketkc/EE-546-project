@@ -61,7 +61,7 @@ rule create_index:
     output: CDNA_IDX
     shell:
         '''kallisto index -i {output} {input}'''
-
+"""
 rule sra_to_fastq:
     input: sra_to_fastq_input
     benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
@@ -80,6 +80,25 @@ rule sra_to_fastq:
         && gzip {params.prefix1} \
         && gzip {params.prefix2}
         '''
+"""
+rule sra_to_fastq:
+    input: sra_to_fastq_input
+    benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
+    output:
+        R1=temp('sratofastq/{sample}_1.fastq.gz'),
+        R2=temp('sratofastq/{sample}_2.fastq.gz')
+    params:
+        prefix_sra='sratofastq/{sample}.sra.fastq',
+        prefix1='sratofastq/{sample}_1.fastq',
+        prefix2='sratofastq/{sample}_2.fastq',
+        temp_dir='/tmp/{sample}_sratofastq',
+        sample='{sample}',
+    threads: 16
+    shell:
+        r'''
+        parallel-fastq-dump --threads 16 --outdir sratofastq/ --split-files --gzip -s {input}
+        '''
+
 
 rule merge_fastq_R1:
     input:

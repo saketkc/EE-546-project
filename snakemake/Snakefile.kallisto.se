@@ -60,6 +60,7 @@ rule create_index:
     shell:
         '''kallisto index -i {output} {input}'''
 
+"""
 rule sra_to_fastq:
     input: sra_to_fastq_input
     benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
@@ -73,6 +74,21 @@ rule sra_to_fastq:
         fastq-dump --split-3 \
         -O sratofastq {input} \
         && gzip {params.prefix}
+        '''
+"""
+
+rule sra_to_fastq:
+    input: sra_to_fastq_input
+    benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
+    output: 'sratofastq/{sample}.fastq.gz'
+    params:
+        prefix_sra='sratofastq/{sample}.sra.fastq',
+        prefix='sratofastq/{sample}.fastq',
+        temp_dir='/tmp/{sample}_sratofastq',
+    threads: 16
+    shell:
+        r'''
+        parallel-fastq-dump --threads 16 --outdir sratofastq/ --split-files --gzip -s {input}
         '''
 
 rule merge_fastq:
