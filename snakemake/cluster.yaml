@@ -11,7 +11,7 @@ sra_to_fastq:
     cores: 16
 
 quantify:
-    mem: '16gb'
+    mem: '40gb'
     cores: 16
 
 create_index:

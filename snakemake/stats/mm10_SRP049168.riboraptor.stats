@@ -1,0 +1,166 @@
+{
+    "total_runtime": 2104.3239443302155,
+    "files": {
+        "plots/metagene_lengthwise/SRX739294/25/5prime_pos.png": {
+            "start-time": "Sun Oct  7 22:44:29 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:54:10 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 580.7856283187866
+        },
+        "multiqc_report/multiqc_plots/png/mqc_featureCounts_assignment_plot_1.png": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:40:47 2018",
+            "resources": {
+                "_cores": 1,
+                "mem_mb": 10000,
+                "_nodes": 1
+            },
+            "duration": 610.3130581378937
+        },
+        "multiqc_report/multiqc_plots/png/mqc_star_alignment_plot_1.png": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:40:47 2018",
+            "resources": {
+                "_cores": 1,
+                "mem_mb": 10000,
+                "_nodes": 1
+            },
+            "duration": 610.3130581378937
+        },
+        "multiqc_report/multiqc_plots/png/mqc_featureCounts_assignment_plot_1_pc.png": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:40:47 2018",
+            "resources": {
+                "_cores": 1,
+                "mem_mb": 10000,
+                "_nodes": 1
+            },
+            "duration": 610.3130581378937
+        },
+        "plots/metagene_lengthwise/SRX739294/29/3prime_combined.png": {
+            "start-time": "Sun Oct  7 22:46:09 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:55:30 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 560.7173533439636
+        },
+        "metagene_coverage_lengthwise/SRX739327/26/5prime_neg.tsv": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:45:19 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 882.5580353736877
+        },
+        "metagene_coverage_lengthwise/SRX739294/29/3prime_combined.tsv": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:46:09 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 932.4459097385406
+        },
+        "plots/metagene_lengthwise/SRX739327/26/5prime_neg.png": {
+            "start-time": "Sun Oct  7 22:45:19 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:55:00 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 580.7602405548096
+        },
+        "reports/SRX739327_riboraptor_report.html": {
+            "start-time": "Sun Oct  7 22:55:00 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 23:05:21 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 620.7122054100037
+        },
+        "multiqc_report/multiqc_plots/png/mqc_star_alignment_plot_1_pc.png": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:40:47 2018",
+            "resources": {
+                "_cores": 1,
+                "mem_mb": 10000,
+                "_nodes": 1
+            },
+            "duration": 610.3130581378937
+        },
+        "metagene_coverage_lengthwise/SRX739294/25/5prime_pos.tsv": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:44:29 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 832.596705198288
+        },
+        "multiqc_report/aggregated_report.html": {
+            "start-time": "Sun Oct  7 22:30:37 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 22:39:17 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 520.3471863269806
+        },
+        "reports/SRX739294_riboraptor_report.html": {
+            "start-time": "Sun Oct  7 22:55:30 2018",
+            "priority": 0,
+            "stop-time": "Sun Oct  7 23:05:41 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "duration": 610.7236552238464
+        }
+    },
+    "rules": {
+        "plot_metagene_individual_length": {
+            "max-runtime": 580.7856283187866,
+            "mean-runtime": 574.0877407391866,
+            "min-runtime": 560.7173533439636
+        },
+        "export_metagene_individual": {
+            "max-runtime": 932.4459097385406,
+            "mean-runtime": 882.5335501035055,
+            "min-runtime": 832.596705198288
+        },
+        "aggregate_multiqc_plots": {
+            "max-runtime": 640.8995163440704,
+            "mean-runtime": 580.6233513355255,
+            "min-runtime": 520.3471863269806
+        },
+        "multiqc": {
+            "max-runtime": 610.3130581378937,
+            "mean-runtime": 610.3130581378937,
+            "min-runtime": 610.3130581378937
+        },
+        "qc_report": {
+            "max-runtime": 620.7122054100037,
+            "mean-runtime": 615.717930316925,
+            "min-runtime": 610.7236552238464
+        }
+    }
+}

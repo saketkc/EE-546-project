@@ -1,0 +1,52 @@
+{
+    "total_runtime": 240.39959931373596,
+    "rules": {
+        "merge_fastq_R2": {
+            "mean-runtime": 60.11446952819824,
+            "min-runtime": 60.11446952819824,
+            "max-runtime": 60.11446952819824
+        },
+        "merge_fastq_R1": {
+            "mean-runtime": 19.953716039657593,
+            "min-runtime": 19.953716039657593,
+            "max-runtime": 19.953716039657593
+        },
+        "quantify": {
+            "mean-runtime": 180.27628827095032,
+            "min-runtime": 180.27628827095032,
+            "max-runtime": 180.27628827095032
+        }
+    },
+    "files": {
+        "fastq_merged/SRX081924_R2.fastq.gz": {
+            "start-time": "Mon Nov 19 18:24:08 2018",
+            "stop-time": "Mon Nov 19 18:25:08 2018",
+            "duration": 60.11446952819824,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081924_R1.fastq.gz": {
+            "start-time": "Mon Nov 19 18:24:08 2018",
+            "stop-time": "Mon Nov 19 18:24:28 2018",
+            "duration": 19.953716039657593,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081924/abundance.tsv": {
+            "start-time": "Mon Nov 19 18:25:08 2018",
+            "stop-time": "Mon Nov 19 18:28:08 2018",
+            "duration": 180.27628827095032,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "total_runtime": 3786.639490365982,
+    "rules": {
+        "quantify": {
+            "mean-runtime": 2569.4469875991344,
+            "min-runtime": 1983.2774322032928,
+            "max-runtime": 3786.153178691864
+        }
+    },
+    "files": {
+        "counts/SRX263864/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 11:51:44 2018",
+            "duration": 2294.338075399399,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX142116/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 11:50:24 2018",
+            "duration": 2214.070615530014,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX142109/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 11:50:04 2018",
+            "duration": 2193.936482667923,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX142112/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 11:53:14 2018",
+            "duration": 2384.25204873085,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX190140/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 12:09:06 2018",
+            "duration": 3335.6286404132843,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX142110/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 11:46:33 2018",
+            "duration": 1983.2774322032928,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX190116/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 12:16:36 2018",
+            "duration": 3786.153178691864,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX263859/abundance.tsv": {
+            "start-time": "Sat Dec  1 11:13:30 2018",
+            "stop-time": "Sat Dec  1 11:52:54 2018",
+            "duration": 2363.9194271564484,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        }
+    }
+}

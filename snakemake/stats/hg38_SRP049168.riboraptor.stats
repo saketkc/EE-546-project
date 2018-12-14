@@ -1,0 +1,262 @@
+{
+    "rules": {
+        "qc_report_summarized": {
+            "min-runtime": 10.031446695327759,
+            "mean-runtime": 10.031446695327759,
+            "max-runtime": 10.031446695327759
+        },
+        "normalize_bigwig": {
+            "min-runtime": 97.87243318557739,
+            "mean-runtime": 108.663157304128,
+            "max-runtime": 119.38724708557129
+        },
+        "plot_metagene_individual_length": {
+            "min-runtime": 19.856443405151367,
+            "mean-runtime": 23.376625259717304,
+            "max-runtime": 30.18160390853882
+        },
+        "export_metagene_individual": {
+            "min-runtime": 430.59494829177856,
+            "mean-runtime": 465.137699842453,
+            "max-runtime": 480.4710702896118
+        },
+        "qc_report": {
+            "min-runtime": 19.967490196228027,
+            "mean-runtime": 19.967490196228027,
+            "max-runtime": 19.967490196228027
+        },
+        "plot_periodicity_matrix": {
+            "min-runtime": 20.07720112800598,
+            "mean-runtime": 20.07720112800598,
+            "max-runtime": 20.07720112800598
+        },
+        "periodicity_matrix": {
+            "min-runtime": 20.010409355163574,
+            "mean-runtime": 20.010409355163574,
+            "max-runtime": 20.010409355163574
+        }
+    },
+    "files": {
+        "metagene_coverage_lengthwise/SRX740752/38/3prime_neg.tsv": {
+            "stop-time": "Wed Oct  3 20:32:31 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:32 2018",
+            "priority": 0,
+            "duration": 479.42284059524536
+        },
+        "bigWig_lengthwise_normalized/SRX740752/38/5prime_pos.bw": {
+            "stop-time": "Wed Oct  3 20:26:08 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 97.87243318557739
+        },
+        "bigWig_lengthwise_normalized/SRX740752/38/5prime_neg.bw": {
+            "stop-time": "Wed Oct  3 20:26:20 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:32 2018",
+            "priority": 0,
+            "duration": 108.60313034057617
+        },
+        "reports/riboraptor_report_summarized.html": {
+            "stop-time": "Wed Oct  3 20:33:21 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:33:11 2018",
+            "priority": 0,
+            "duration": 10.031446695327759
+        },
+        "metagene_coverage_lengthwise/SRX740752/38/5prime_neg.tsv": {
+            "stop-time": "Wed Oct  3 20:31:41 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:30 2018",
+            "priority": 0,
+            "duration": 430.59494829177856
+        },
+        "reports/SRX740752_riboraptor_report.html": {
+            "stop-time": "Wed Oct  3 20:33:21 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:33:01 2018",
+            "priority": 0,
+            "duration": 19.967490196228027
+        },
+        "periodicity/SRX740752.tsv": {
+            "stop-time": "Wed Oct  3 20:32:51 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:32:31 2018",
+            "priority": 0,
+            "duration": 20.010409355163574
+        },
+        "bigWig_lengthwise_normalized/SRX740752/38/3prime_combined.bw": {
+            "stop-time": "Wed Oct  3 20:26:19 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 108.64980673789978
+        },
+        "plots/metagene_lengthwise/SRX740752/38/5prime_pos.png": {
+            "stop-time": "Wed Oct  3 20:32:21 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:32:01 2018",
+            "priority": 0,
+            "duration": 20.09496760368347
+        },
+        "metagene_coverage_lengthwise/SRX740752/38/3prime_combined.tsv": {
+            "stop-time": "Wed Oct  3 20:32:21 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 470.1219480037689
+        },
+        "plots/periodicity/SRX740752.png": {
+            "stop-time": "Wed Oct  3 20:33:11 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:32:51 2018",
+            "priority": 0,
+            "duration": 20.07720112800598
+        },
+        "metagene_coverage_lengthwise/SRX740752/38/3prime_pos.tsv": {
+            "stop-time": "Wed Oct  3 20:32:31 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 480.4278299808502
+        },
+        "bigWig_lengthwise_normalized/SRX740752/38/5prime_combined.bw": {
+            "stop-time": "Wed Oct  3 20:26:31 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 119.38724708557129
+        },
+        "metagene_coverage_lengthwise/SRX740752/38/5prime_combined.tsv": {
+            "stop-time": "Wed Oct  3 20:32:31 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 480.4710702896118
+        },
+        "plots/metagene_lengthwise/SRX740752/38/3prime_neg.png": {
+            "stop-time": "Wed Oct  3 20:33:01 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:32:31 2018",
+            "priority": 0,
+            "duration": 29.972455501556396
+        },
+        "plots/metagene_lengthwise/SRX740752/38/5prime_neg.png": {
+            "stop-time": "Wed Oct  3 20:32:01 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:31:41 2018",
+            "priority": 0,
+            "duration": 20.068127155303955
+        },
+        "plots/metagene_lengthwise/SRX740752/38/3prime_pos.png": {
+            "stop-time": "Wed Oct  3 20:32:51 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:32:31 2018",
+            "priority": 0,
+            "duration": 19.856443405151367
+        },
+        "bigWig_lengthwise_normalized/SRX740752/38/3prime_pos.bw": {
+            "stop-time": "Wed Oct  3 20:26:19 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 108.47056365013123
+        },
+        "plots/metagene_lengthwise/SRX740752/38/3prime_combined.png": {
+            "stop-time": "Wed Oct  3 20:32:51 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:32:21 2018",
+            "priority": 0,
+            "duration": 30.18160390853882
+        },
+        "bigWig_lengthwise_normalized/SRX740752/38/3prime_neg.bw": {
+            "stop-time": "Wed Oct  3 20:26:19 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:30 2018",
+            "priority": 0,
+            "duration": 108.9957628250122
+        },
+        "plots/metagene_lengthwise/SRX740752/38/5prime_combined.png": {
+            "stop-time": "Wed Oct  3 20:32:51 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:32:31 2018",
+            "priority": 0,
+            "duration": 20.086153984069824
+        },
+        "metagene_coverage_lengthwise/SRX740752/38/5prime_pos.tsv": {
+            "stop-time": "Wed Oct  3 20:32:01 2018",
+            "resources": {
+                "_nodes": 1,
+                "_cores": 1
+            },
+            "start-time": "Wed Oct  3 20:24:31 2018",
+            "priority": 0,
+            "duration": 449.78756189346313
+        }
+    },
+    "total_runtime": 531.0753087997437
+}

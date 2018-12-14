@@ -1,0 +1,37 @@
+{
+    "total_runtime": 550.8067870140076,
+    "rules": {
+        "merge_fastq_R2": {
+            "mean-runtime": 170.26214051246643,
+            "min-runtime": 170.26214051246643,
+            "max-runtime": 170.26214051246643
+        },
+        "quantify": {
+            "mean-runtime": 380.53615641593933,
+            "min-runtime": 380.53615641593933,
+            "max-runtime": 380.53615641593933
+        }
+    },
+    "files": {
+        "fastq_merged/SRX196327_R2.fastq.gz": {
+            "start-time": "Mon Nov 19 17:32:55 2018",
+            "stop-time": "Mon Nov 19 17:35:46 2018",
+            "duration": 170.26214051246643,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX196327/abundance.tsv": {
+            "start-time": "Mon Nov 19 17:35:46 2018",
+            "stop-time": "Mon Nov 19 17:42:06 2018",
+            "duration": 380.53615641593933,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        }
+    }
+}

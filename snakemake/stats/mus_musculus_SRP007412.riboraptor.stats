@@ -1,0 +1,562 @@
+{
+    "total_runtime": 4344.9079802036285,
+    "rules": {
+        "sra_to_fastq": {
+            "mean-runtime": 3071.1157733559608,
+            "min-runtime": 2425.392823934555,
+            "max-runtime": 3763.1910903453827
+        },
+        "merge_fastq": {
+            "mean-runtime": 22.358903351952048,
+            "min-runtime": 20.18099045753479,
+            "max-runtime": 42.15767168998718
+        },
+        "quantify": {
+            "mean-runtime": 333.8069993467892,
+            "min-runtime": 264.53670740127563,
+            "max-runtime": 537.9416537284851
+        }
+    },
+    "files": {
+        "sratofastq/SRR306773.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 13:58:31 2018",
+            "duration": 2536.73783993721,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306758.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 14:03:17 2018",
+            "duration": 2823.1472980976105,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306763.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 14:15:07 2018",
+            "duration": 3533.2739531993866,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306765.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 14:08:27 2018",
+            "duration": 3132.548261642456,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306762.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 14:03:39 2018",
+            "duration": 2844.887714624405,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306768.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 14:06:13 2018",
+            "duration": 2999.08522605896,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306774.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 14:11:07 2018",
+            "duration": 3292.4922263622284,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306766.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:14 2018",
+            "stop-time": "Mon Nov 19 14:18:58 2018",
+            "duration": 3763.1910903453827,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306767.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 14:06:56 2018",
+            "duration": 3041.9483547210693,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306760.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 13:57:13 2018",
+            "duration": 2458.8576974868774,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306775.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 13:56:40 2018",
+            "duration": 2425.392823934555,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306757.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 14:06:35 2018",
+            "duration": 3020.426645755768,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306770.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 14:06:13 2018",
+            "duration": 2998.3285040855408,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306771.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 14:10:17 2018",
+            "duration": 3241.541383743286,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306769.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 14:18:08 2018",
+            "duration": 3712.2164041996,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306772.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 14:18:48 2018",
+            "duration": 3752.218417406082,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306759.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:15 2018",
+            "stop-time": "Mon Nov 19 14:05:41 2018",
+            "duration": 2965.8816378116608,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306776.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:16 2018",
+            "stop-time": "Mon Nov 19 14:09:27 2018",
+            "duration": 3191.177281856537,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306764.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:16 2018",
+            "stop-time": "Mon Nov 19 14:04:35 2018",
+            "duration": 2899.6215238571167,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "sratofastq/SRR306761.fastq.gz": {
+            "start-time": "Mon Nov 19 13:16:16 2018",
+            "stop-time": "Mon Nov 19 14:02:45 2018",
+            "duration": 2789.3411819934845,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081918.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:58 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.674755811691284,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081911.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:58 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.600504636764526,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081916.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:58 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.54629635810852,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081915.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:58 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.493295669555664,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081909.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:58 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.433350801467896,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081905.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:58 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.37585973739624,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081908.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:58 2018",
+            "stop-time": "Mon Nov 19 14:19:30 2018",
+            "duration": 31.35358166694641,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081912.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.245944499969482,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081917.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:19 2018",
+            "duration": 20.18099045753479,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081906.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:41 2018",
+            "duration": 42.15767168998718,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081914.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:20 2018",
+            "duration": 20.59757709503174,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081910.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:20 2018",
+            "duration": 20.55242085456848,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081920.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:20 2018",
+            "duration": 20.498727798461914,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081919.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:20 2018",
+            "duration": 20.43908667564392,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081913.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:20 2018",
+            "duration": 20.379152536392212,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081921.fastq.gz": {
+            "start-time": "Mon Nov 19 14:18:59 2018",
+            "stop-time": "Mon Nov 19 14:19:20 2018",
+            "duration": 20.317261457443237,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "fastq_merged/SRX081907.fastq.gz": {
+            "start-time": "Mon Nov 19 14:19:00 2018",
+            "stop-time": "Mon Nov 19 14:19:20 2018",
+            "duration": 20.254879236221313,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081918/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:23:43 2018",
+            "duration": 264.53670740127563,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081911/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:26:09 2018",
+            "duration": 409.77187991142273,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081912/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:23:54 2018",
+            "duration": 275.4081497192383,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081917/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:25:48 2018",
+            "duration": 389.5559356212616,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081905/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:24:27 2018",
+            "duration": 308.32214403152466,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081909/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:24:05 2018",
+            "duration": 286.21534752845764,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081915/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:24:05 2018",
+            "duration": 286.1556086540222,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081916/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:19 2018",
+            "stop-time": "Mon Nov 19 14:24:27 2018",
+            "duration": 308.1280462741852,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081914/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:20 2018",
+            "stop-time": "Mon Nov 19 14:25:59 2018",
+            "duration": 398.81984519958496,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081907/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:20 2018",
+            "stop-time": "Mon Nov 19 14:23:55 2018",
+            "duration": 275.46976947784424,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081920/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:20 2018",
+            "stop-time": "Mon Nov 19 14:24:05 2018",
+            "duration": 285.44573497772217,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081913/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:20 2018",
+            "stop-time": "Mon Nov 19 14:24:06 2018",
+            "duration": 286.3610210418701,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081919/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:20 2018",
+            "stop-time": "Mon Nov 19 14:24:27 2018",
+            "duration": 307.35020327568054,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081921/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:20 2018",
+            "stop-time": "Mon Nov 19 14:24:58 2018",
+            "duration": 338.3150224685669,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081910/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:20 2018",
+            "stop-time": "Mon Nov 19 14:24:48 2018",
+            "duration": 328.21420884132385,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081908/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:30 2018",
+            "stop-time": "Mon Nov 19 14:25:59 2018",
+            "duration": 388.70771074295044,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        },
+        "counts/SRX081906/abundance.tsv": {
+            "start-time": "Mon Nov 19 14:19:41 2018",
+            "stop-time": "Mon Nov 19 14:28:39 2018",
+            "duration": 537.9416537284851,
+            "priority": 0,
+            "resources": {
+                "_cores": 16,
+                "_nodes": 1
+            }
+        }
+    }
+}

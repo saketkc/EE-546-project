@@ -1,0 +1,237 @@
+{
+    "total_runtime": 390.82445192337036,
+    "rules": {
+        "export_metagene_individual": {
+            "min-runtime": 300.07241320610046,
+            "mean-runtime": 326.41115617752075,
+            "max-runtime": 350.19004106521606
+        },
+        "plot_periodicity_matrix": {
+            "min-runtime": 20.06319260597229,
+            "mean-runtime": 20.06319260597229,
+            "max-runtime": 20.06319260597229
+        },
+        "qc_report": {
+            "min-runtime": 19.925039768218994,
+            "mean-runtime": 19.925039768218994,
+            "max-runtime": 19.925039768218994
+        },
+        "periodicity_matrix": {
+            "min-runtime": 9.91795539855957,
+            "mean-runtime": 9.91795539855957,
+            "max-runtime": 9.91795539855957
+        },
+        "plot_metagene_individual_length": {
+            "min-runtime": 20.01225757598877,
+            "mean-runtime": 21.369731903076172,
+            "max-runtime": 30.147938013076782
+        },
+        "qc_report_summarized": {
+            "min-runtime": 10.025817155838013,
+            "mean-runtime": 10.025817155838013,
+            "max-runtime": 10.025817155838013
+        }
+    },
+    "files": {
+        "plots/metagene_lengthwise/SRX118286/21/5prime_pos.png": {
+            "duration": 20.092883825302124,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:28 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:49 2018"
+        },
+        "plots/metagene_lengthwise/SRX118286/20/5prime_pos.png": {
+            "duration": 30.147938013076782,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:41:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:28 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/34/3prime_pos.tsv": {
+            "duration": 329.984557390213,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:28 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/34/5prime_pos.tsv": {
+            "duration": 320.20982027053833,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:18 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/21/5prime_neg.tsv": {
+            "duration": 330.4882664680481,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:28 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/21/3prime_neg.tsv": {
+            "duration": 339.9503376483917,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:38 2018"
+        },
+        "periodicity/SRX118286.tsv": {
+            "duration": 9.91795539855957,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:08 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:18 2018"
+        },
+        "plots/metagene_lengthwise/SRX118286/34/3prime_pos.png": {
+            "duration": 20.01225757598877,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:29 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:49 2018"
+        },
+        "reports/SRX118286_riboraptor_report.html": {
+            "duration": 19.925039768218994,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:43:09 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:43:29 2018"
+        },
+        "plots/periodicity/SRX118286.png": {
+            "duration": 20.06319260597229,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:18 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:38 2018"
+        },
+        "plots/metagene_lengthwise/SRX118286/34/5prime_pos.png": {
+            "duration": 20.158223867416382,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:18 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:38 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/21/3prime_pos.tsv": {
+            "duration": 350.19004106521606,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:49 2018"
+        },
+        "plots/metagene_lengthwise/SRX118286/21/3prime_neg.png": {
+            "duration": 20.15735125541687,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:38 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:59 2018"
+        },
+        "reports/riboraptor_report_summarized.html": {
+            "duration": 10.025817155838013,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:39 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:49 2018"
+        },
+        "plots/metagene_lengthwise/SRX118286/21/3prime_pos.png": {
+            "duration": 20.113466262817383,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:49 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:43:09 2018"
+        },
+        "plots/metagene_lengthwise/SRX118286/21/5prime_combined.png": {
+            "duration": 20.097800970077515,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:08 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:28 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/21/5prime_combined.tsv": {
+            "duration": 310.0326063632965,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:08 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/20/5prime_pos.tsv": {
+            "duration": 300.07241320610046,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:41:58 2018"
+        },
+        "plots/metagene_lengthwise/SRX118286/21/5prime_neg.png": {
+            "duration": 20.17793345451355,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:42:28 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:49 2018"
+        },
+        "metagene_coverage_lengthwise/SRX118286/21/5prime_pos.tsv": {
+            "duration": 330.3612070083618,
+            "priority": 0,
+            "start-time": "Thu Oct  4 19:36:58 2018",
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            },
+            "stop-time": "Thu Oct  4 19:42:28 2018"
+        }
+    }
+}
